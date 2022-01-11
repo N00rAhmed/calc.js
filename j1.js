@@ -1,4 +1,5 @@
-//hello world
+//sucessfully able to use functions, variables, const/let, mathematical symbols, inputs, 
+// if / else if & else statements in JavaScript.
 function calc (){
     const symbol = prompt('Enter operator +, -, * or / : ');
     const num1 = parseFloat(prompt('Enter first number: '));
