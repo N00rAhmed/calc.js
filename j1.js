@@ -1,3 +1,4 @@
+//hello world
 function calc (){
     const symbol = prompt('Enter operator +, -, * or / : ');
     const num1 = parseFloat(prompt('Enter first number: '));
