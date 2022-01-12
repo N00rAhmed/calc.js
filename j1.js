@@ -1,7 +1,18 @@
-//successfully able to use functions, variables, const/let, mathematical symbols, inputs, 
-// if / else if & else statements in JavaScript.
+//11/01/2022 successfully able to use functions, variables, const/let, mathematical symbols, inputs, 
+//11/01/2022 if / else if & else statements in JavaScript.
+//12/01/2022 sucessfully added new function to original one
+function vol(){
+    let a = parseFloat(prompt('Enter num to get volume for cube: '));
+    a = a * a * a;
+    console.log(prompt(a));
+}
+
 function calc (){
-    const symbol = prompt('Enter operator +, -, * or / : ');
+    const symbol = prompt('Enter operator +, -, *, / or vol : ');
+    if (symbol == 'vol'){
+        vol();
+        repeat();
+    }
     const num1 = parseFloat(prompt('Enter first number: '));
     const num2 = parseFloat(prompt('Enter second number: '));
 
@@ -20,7 +31,8 @@ function calc (){
         result = num1 / num2;
     }
     prompt(`${num1} ${symbol} ${num2} = ${result}`);
-repeat();
+
+    repeat();
 }
 
 //function added in order to create a repeat option
@@ -31,6 +43,7 @@ function repeat(){
     }
     else{
         prompt('GoodBye');
+        throw new Error();
     }
 }
 
