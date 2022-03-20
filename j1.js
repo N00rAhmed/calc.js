@@ -1,6 +1,10 @@
+// <<<<<<< editing-branch
 //11/01/2022 successfully able to use functions, variables, const/let, mathematical symbols, inputs, 
 //11/01/2022 if / else if & else statements in JavaScript.
 //12/01/2022 sucessfully added new function to original one
+=======
+//const prompt = require("prompt-sync")();
+// >>>>>>> main
 
 
 function vol(){
@@ -18,6 +22,7 @@ function calc (){
     const num1 = parseFloat(prompt('Enter first number: '));
     const num2 = parseFloat(prompt('Enter second number: '));
 
+// <<<<<<< editing-branch
     let result;
 
     if (symbol == '+') {
@@ -35,6 +40,17 @@ function calc (){
     prompt(`${num1} ${symbol} ${num2} = ${result}`);
 
     repeat();
+// =======
+calc();
+if (symbol == '+') {
+    result = num1 + num2;
+}
+else if (symbol == '-') {
+    result = num1 - num2;
+}
+else if (symbol == '*'){
+    result = num1 * num2;
+// >>>>>>> main
 }
 
 //function added in order to create a repeat option
