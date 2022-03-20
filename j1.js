@@ -1,6 +1,8 @@
 //11/01/2022 successfully able to use functions, variables, const/let, mathematical symbols, inputs, 
 //11/01/2022 if / else if & else statements in JavaScript.
 //12/01/2022 sucessfully added new function to original one
+
+
 function vol(){
     let a = parseFloat(prompt('Enter your number to get volume for the cube: '));
     a = a * a * a;
