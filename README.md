@@ -1,2 +1,2 @@
 # Calc.js
-This is a calculator that i have made in JavaScript and am further developing in github branches.
+This calculator was made in JavaScript and is under further development using github.
